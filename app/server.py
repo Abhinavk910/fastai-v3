@@ -9,10 +9,13 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
+export_file_url = 'https://drive.google.com/open?id=1NJdmq0yLczJUzdkS8433vIMkhI1AU91a'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Bangus – Milk Fish', 'Bombay Duck', 'Catla – Indian Carp',
+             'Hilsa – Ilish Shad', 'Indian Mackerel - Bangda', 'Magur', 'Prawn', 'Rohu',
+             'Salmon', 'Shrimp', 'Surmai – Indian Seer Fish', 'Tengra', 'Tilapia – Cichlid Fish',
+             'Bhetki – Barramundi', 'Tor Tor –  Mahseer', 'Tuna' ]
 path = Path(__file__).parent
 
 app = Starlette()
